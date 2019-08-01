@@ -31,7 +31,7 @@ import java.util.stream.Collectors;
     @Autowired
     TransactionServiceImpl transactionService;
 
-    @GetMapping("/")
+    @GetMapping(value = {"/", "/home"})
     public String homePage(Model model) {
         model.addAttribute("appName", appName);
         return "home";
