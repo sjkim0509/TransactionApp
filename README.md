@@ -1,3 +1,3 @@
 # TransactionApp
 Spring Boot Application
-This is my Assignment 11 repository
+# TransactionApp - Lesson 15 - Deploy to Heroku
