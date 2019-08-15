@@ -24,8 +24,8 @@ import static org.junit.Assert.assertEquals;
         assertEquals(4l, revs);
     }
 
-    @Test public void testDBall() {
-        Iterable<Transaction> it = repository.findAll();
-        it.forEach(t -> log.info("\n" + t.toString()));
-    }
+//    @Test public void testDBall() {
+//        Iterable<Transaction> it = repository.findAll();
+//        it.forEach(t -> log.info("\n" + t.toString()));
+//    }
 }
